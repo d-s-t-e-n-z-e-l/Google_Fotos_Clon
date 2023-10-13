@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+    <script src="script.js"></script>
+    <link rel="icon" href="img/logo_fotos.png" type="image/png">
+    <title>Google Fotos</title>
+</head>
+
+<body id="body" onload="">
+
+    <div class="bodydiv" id="bodydiv">
+
+        <header class="header">
+            <figure class="logodiv"><img class="googlelogo" src="img/google.png" alt="google">
+                <p>Fotos</p>
+            </figure>
+            <div class="searchdiv"><img class="icons" src="img/search.png" alt="search"><input class="searchinput"
+                    type="text" placeholder="In deinen Fotos suchen" style="color: #9AA0A6; font-family: 'Roboto'">
+            </div>
+            <div class="headMenudiv">
+                <img class="searchicon" src="img/search.png" alt="help">
+                <div class="uploadDiv"> <img class="icons" src="img/upload.png" alt="upload">
+                    <p class="upload">Hochladen</p>
+                </div>
+                <img class="icons" src="img/help.png" alt="help">
+                <img class="icons" src="img/settings.png" alt="settings">
+                <img class="icons" src="img/apps.png" alt="apps">
+                <img class="icons profil" src="img/profil.png" alt="profil">
+            </div>
+        </header>
+        <main class="mainDiv">
+            <aside class="asidemenu">
+                <button onclick="render('laden')" id="fotoload" class="sidebutton" style="font-family: 'Roboto'"><img
+                        class="icons" src="img/download.png" alt="download">
+                    <p class="menuwords">Aus Explorer laden</p>
+                </button>
+                <br>
+                <button onclick="render('fotos')" class="sidebutton" style="font-family: 'Roboto'"><img class="icons"
+                        src="img/fotos.png" alt="fotos">
+                    <p class="menuwords">Fotos</p>
+                </button>
+                <button onclick="render('favs')" class="sidebutton" style="font-family: 'Roboto'"><img class="icons"
+                        src="img/favourit.png" alt="favourits">
+                    <p class="menuwords">Favouriten</p>
+                </button>
+                <button onclick="render('trash')" class="sidebutton" style="font-family: 'Roboto'"><img class="icons"
+                        src="img/trash.png" alt="trash">
+                    <p class="menuwords">Papierkorb</p>
+                </button>
+                <button onclick="render('archiv')" class="sidebutton" style="font-family: 'Roboto'"><img class="icons"
+                        src="img/archiv.png" alt="archiv">
+                    <p class="menuwords">Archiv</p>
+                </button>
+
+            </aside>
+            <section class="fotoarea" id="fotoarea">
+                <!-- <div class="fotobox">
+                <img class="foto" src="/img/cat (1).jpg" alt="" loading="lazy" onclick="renderBody()">
+                <div class="fotoNavigation">
+                    <button onclick="setFavourit()" class="fotoButton" style="font-family: 'Roboto'"><img class="fotoIcons" src="img/favourit.png"
+                            alt="favourits"></button>
+                    <button onclick="deleting()" class="fotoButton" style="font-family: 'Roboto'"><img class="fotoIcons" src="img/trash.png"
+                            alt="trash"></button>
+                    <button onclick="archiving()" class="fotoButton" style="font-family: 'Roboto'"><img class="fotoIcons" src="img/archiv.png"
+                            alt="archiv"></button>
+                    </div>
+            </div> -->
+            </section>
+
+
+
+        </main>
+        <footer></footer>
+        <section class="detailedView d-none" id="detailedSection">
+            <!-- <div class="sliderDiv">
+                <div class="detailHeaderDiv">
+                    <div class="arrowBack" id="arrowBack"> <img onclick="back()" class="arrowIcons" src="img/back.png"
+                            alt="back"></div>
+                    <nav class="detailNavigation">
+                        <button class="navButton" style="font-family: 'Roboto'"><img class="navIcons"
+                                src="img/favourit.png" alt="favourits"></button>
+                        <button class="navButton" style="font-family: 'Roboto'"><img class="navIcons"
+                                src="img/trash.png" alt="trash"></button>
+                        <button class="navButton" style="font-family: 'Roboto'"><img class="navIcons"
+                                src="img/archiv.png" alt="archiv"></button>
+                    </nav>
+                </div>
+                <div>
+                    <div class="arrowLeft" id="arrowLeft"> <img onclick="previousFoto(${index})" class="arrowIcons"
+                            src="img/left.png" alt=""></div>
+                    <div class="detailFotoDiv"><img class="detailFoto" src="./${slider[index]}" alt="cat"></div>
+                    <div class="arrowRight" id="arrowRight"> <img onclick="nextFoto(${index})" class="arrowIcons"
+                            src="img/right.png" alt=""></div>
+                </div>
+            </div> -->
+
+
+
+    </div>`
+    </section>
+
+    </div>
+</body>
+
+
+</html>
